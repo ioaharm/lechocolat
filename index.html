@@ -127,7 +127,7 @@
                             <label class="col-12 col-sm-3">Date & Time</label>
                             <div class="input-group col-12 col-sm-4">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text fa-fa-calendar"></span>
+                                    <span class="input-group-text fa fa-calendar"></span>
                                 </div>    
                                 <input type="date" class="form-control" name="mydate">
             
@@ -135,7 +135,7 @@
 
                             <div class="input-group col-12 col-sm-4">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text fa-fa-clock-o"></span>
+                                    <span class="input-group-text fa fa-clock-o"></span>
                                 </div>
                                 <input type="time" class="form-control" name="mytime">
                             </div>     
@@ -250,6 +250,15 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                    <!--stop and cycle btns-->
+                    <div class="btn-group" id="carouselButtons">
+                        <button class="btn btn-danger btn-sm" id="carousel-pause">
+                          <span class="fa fa-pause"></span>
+                        </button>
+                        <button class="btn btn-danger btn-sm" id="carousel-play">
+                          <span class="fa fa-play"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
           </div>
@@ -350,7 +359,7 @@
                                 <label class="col-12 col-sm-3">Date & Time</label>
                                 <div class="input-group col-12 col-sm-4">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text fa-fa-calendar"></span>
+                                        <span class="input-group-text fa fa-calendar"></span>
                                     </div>    
                                     <input type="date" class="form-control" name="mydate">
                 
@@ -358,7 +367,7 @@
 
                                 <div class="input-group col-12 col-sm-4">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text fa-fa-clock-o"></span>
+                                        <span class="input-group-text fa fa-clock-o"></span>
                                     </div>
                                     <input type="time" class="form-control" name="mytime">
                                 </div>     
@@ -430,11 +439,12 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
+    <script src="js/scripts.js"></script>
+    <!-- <script>
         $(function () {
            $('[data-toggle="tooltip"]').tooltip()
          })
-       </script>   
+       </script> -->  
 </body>
 
 </html>
